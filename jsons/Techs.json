@@ -7,7 +7,7 @@
 		"techs": [
 			{
 				"name": "Agriculture",
-				"row": 5,
+				"row": 6,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": ["Starting tech"]
 			}
@@ -176,7 +176,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Medieval era",
-		"techCost": 300,
+		"techCost": 275,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -211,7 +211,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Medieval era",
-		"techCost": 500,
+		"techCost": 485,
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
@@ -219,6 +219,7 @@
 				"name": "Compass",
 				"cost": 375,
 				"row": 1,
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
 				"prerequisites": ["Optics","Theology"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
@@ -228,6 +229,12 @@
 				"prerequisites": ["Theology","Civil Service"],
 				"uniques": ["Enables conversion of city production to science","Enables Research agreements"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
+			},
+			{
+				"name": "Banking",
+				"row": 4,
+				"prerequisites": ["Civil Service"],
+				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
 				"name": "Chivalry",
@@ -258,464 +265,408 @@
 	},
 	{
 		"columnNumber": 7,
-		"era": "Medieval era",
-		"techCost": 800,
-		"buildingCost": 200,
-		"wonderCost": 500,
+		"era": "Renaissance era",
+		"techCost": 99999999999,
+		"buildingCost": 99999,
+		"wonderCost": 999999,
 		"techs": [
 			{
-				"name": "Astronomy",
-				"row": 2,
-				"uniques": ["Increases embarked movement +1","Enables embarked units to enter ocean tiles"],
-				"prerequisites": ["Compass","Education"],
-				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
-			},
-			{
-				"name": "Acoustics",
-				"row": 4,
-				"prerequisites": ["Education"],
-				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
-			},
-			{
-				"name": "Banking",
+				"name": "You... shall not... PASS!!",
 				"row": 6,
-				"prerequisites": ["Chivalry"],
-				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
-			},
-			{
-				"name": "Printing Press",
-				"row": 8,
-				"prerequisites": ["Machinery","Physics","Chivalry"],
-				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
+				"prerequisites": ["Compass","Education","Banking","Chivalry","Machinery","Physics","Steel"],
+				"uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched"],
+				"quote": "NO! This isn't supposed how you play the game! You can't pass on from here, I won't allow you. No"
 			},
 		]
 	},
 	{
 		"columnNumber": 8,
 		"era": "Renaissance era",
-		"techCost": 1200,
-		"buildingCost": 250,
-		"wonderCost": 625,
+		"techCost": 99999999999,
+		"buildingCost": 99999,
+		"wonderCost": 999999,
 		"techs": [
 			{
-				"name": "Future Tech",
-				"row": 5,
-				"prerequisites": ["Acoustics", "Banking", "Printing Press"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
+				"name": "Astronomy",
+				"row": 2,
+				"prerequisites": ["You... shall not... PASS!!"],
+				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
+			},
+			{
+				"name": "Acoustics",
+				"row": 4,
+				"prerequisites": ["You... shall not... PASS!!"],
+				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
+			},
+			{
+				"name": "Printing Press",
+				"row": 8,
+				"prerequisites": ["You... shall not... PASS!!"],
+				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
+			},
+			{
+				"name": "Gunpowder",
+				"row": 10,
+				"prerequisites": ["You... shall not... PASS!!"],
+				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
 			}
 		]
-	}
+	},
 	{
 		"columnNumber": 9,
 		"era": "Renaissance era",
-		"techCost": 999275,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"techCost": 99999999999,
+		"buildingCost": 99999,
+		"wonderCost": 999999,
 		"techs": [
 			{
-				"name": "Future Tech1",
-				"row": 1,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "Don't worry, this is in order to make citis not OP"
+				"name": "Navigation",
+				"row": 2,
+				"prerequisites": ["Astronomy"],
+				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
-				"name": "Future Tech2",
-				"row": 3,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "Don't worry, this is in order to make citis not OP"
+				"name": "Architecture",
+				"row": 4,
+				"prerequisites": ["Acoustics"],
+				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
 			},
 			{
-				"name": "Future Tech3",
-				"row": 7,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'Don't worry, this is in order to make citis not OP"
+				"name": "Economics",
+				"row": 6,
+				"prerequisites": ["Printing Press"],
+				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
 			{
-				"name": "Future Tech4",
+				"name": "Metallurgy",
 				"row": 9,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "Don't worry, this is in order to make citis not OP"
+				"prerequisites": ["Printing Press","Gunpowder"],
+				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
 			},
+			{
+				"name": "Chemistry",
+				"row": 10,
+				"prerequisites": ["Gunpowder"],
+				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
+			}
 		]
 	},
 	{
 		"columnNumber": 10,
-		"era": "Renaissance era",
-		"techCost": 42385,
-		"buildingCost": 160,
-		"wonderCost": 400,
+		"era": "Industrial era",
+		"techCost": 99999999999,
+		"buildingCost": 99999,
+		"wonderCost": 999999,
 		"techs": [
 			{
-				"name": "Future Tech5",
-				"row": 1,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "I'm tired"
-			},
-			{
-				"name": "Future Tech6",
-				"row": 3,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech7",
-				"row": 5,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech7",
-				"row": 7,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech8",
+				"name": "Archaeology",
 				"row": 2,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
+				"prerequisites": ["Navigation","Architecture"],
+				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
-				"name": "Future Tech9",
-				"row": 10,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
+				"name": "Scientific Theory",
+				"row": 4,
+				"prerequisites": ["Architecture","Economics"],
+				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
 			},
+			{
+				"name": "Industrialization",
+				"row": 6,
+				"prerequisites": ["Economics"],
+				"quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
+			},
+			{
+				"name": "Rifling",
+				"row": 7,
+				"prerequisites": ["Economics","Metallurgy"],
+				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
+			},
+			{
+				"name": "Military Science",
+				"row": 9,
+				"prerequisites": ["Metallurgy","Chemistry"],
+				"quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton"
+			},
+			{
+				"name": "Fertilizer",
+				"row": 10,
+				"prerequisites": ["Chemistry"],
+				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
+			}
 		]
 	},
 	{
 		"columnNumber": 11,
-		"era": "Renaissance era",
-		"techCost": 780,
-		"buildingCost": 200,
-		"wonderCost": 500,
+		"era": "Industrial era",
+		"techCost": 99999999999,
+		"buildingCost": 99999,
+		"wonderCost": 999999, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
 		"techs": [
 			{
-				"name": "Future Tech10",
-				"row": 1,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech11",
-				"row": 3,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "I actually live in Ecuador"
-			},
-			{
-				"name": "Future Tech12",
-				"row": 5,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech13",
-				"row": 7,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech14",
+				"name": "Biology",
 				"row": 2,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'Dying is poetic' - Splash"
+				"prerequisites": ["Archaeology","Scientific Theory"],
+				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
 			},
+			{
+				"name": "Electricity",
+				"row": 3,
+				"prerequisites": ["Scientific Theory"],
+				"quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
+			},
+			{
+				"name": "Steam Power",
+				"row": 6,
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
+				"prerequisites": ["Industrialization","Scientific Theory","Rifling"],
+				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
+			},
+			{
+				"name": "Dynamite",
+				"row": 9,
+				"prerequisites": ["Fertilizer","Military Science"],
+				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+			}
 		]
 	},
 	{
 		"columnNumber": 12,
-		"era": "Renaissance era",
-		"techCost": 1150,
-		"buildingCost": 250,
-		"wonderCost": 625,
+		"era": "Modern era",
+		"techCost": 99999999999,
+		"buildingCost": 99999,
+		"wonderCost": 999999,
 		"techs": [
 			{
-				"name": "Future Tech15",
-				"row": 1,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "With the power of three, we defy thy."
-			},
-			{
-				"name": "Future Tech16",
-				"row": 3,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech17",
-				"row": 5,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech18",
-				"row": 7,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "Si si, Colombia, si si, Caribe!"
-			},
-			{
-				"name": "Future Tech19",
+				"name": "Refrigeration",
 				"row": 2,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
+				"prerequisites": ["Biology", "Electricity"], //todo: offshore platform should need this
+				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
+			{
+				"name": "Radio",
+				"row": 3,
+				"prerequisites": ["Electricity"],
+				"quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
+			},
+			{
+				"name": "Replaceable Parts",
+				"row": 4,
+				"prerequisites": ["Electricity","Steam Power"],
+				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+			},
+			{
+				"name": "Flight",
+				"row": 6,
+				"prerequisites": ["Steam Power"],
+				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+			},
+			{
+				"name": "Railroads",
+				"row": 8,
+				"prerequisites": ["Steam Power","Dynamite"],
+				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
+			}
 		]
 	},
 	{
 		"columnNumber": 13,
-		"era": "Renaissance era",
-		"techCost": 1600,
-		"buildingCost": 300,
-		"wonderCost": 750,
+		"era": "Modern era",
+		"techCost": 99999999999,
+		"buildingCost": 99999,
+		"wonderCost": 999999,
 		"techs": [
-			
 			{
-				"name": "Future Tech20",
-				"row": 1,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "Si si, Colombia, si si, Andina"
-			},
-			{
-				"name": "Future Tech21",
+				"name": "Plastics",
 				"row": 3,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
+				"prerequisites": ["Radio","Replaceable Parts"],
+				"quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
 			},
 			{
-				"name": "Future Tech22",
+				"name": "Electronics",
 				"row": 5,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
+				"prerequisites": ["Replaceable Parts", "Flight"],
+				"quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
 			},
 			{
-				"name": "Future Tech23",
-				"row": 7,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
+				"name": "Ballistics",
+				"row": 6,
+				"prerequisites": ["Flight"],
+				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
 			},
 			{
-				"name": "Future Tech24",
-				"row": 2,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "Si si, Colombia, si si, los Llanos"
-			},
+				"name": "Combustion",
+				"row": 8,
+				"prerequisites": ["Railroads"],
+				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+			}
 		]
 	},
 	{
 		"columnNumber": 14,
-		"era": "Renaissance era",
-		"techCost": 2350,
-		"buildingCost": 360,
-		"wonderCost": 900, 
+		"era": "Atomic era",
+		"techCost": 99999999999,
+		"buildingCost": 99999,
+		"wonderCost": 999999,
 		"techs": [
 			{
-				"name": "Future Tech25",
-				"row": 1,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech26",
-				"row": 3,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "Si si, Colombia, si si, Pacifico"
-			},
-			{
-				"name": "Future Tech27",
-				"row": 5,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "Si si, Colombia, si si, Amazonas XD"
-			},
-			{
-				"name": "Future Tech28",
-				"row": 7,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech29",
+				"name": "Pharmaceuticals",
 				"row": 2,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
+				"prerequisites": ["Plastics","Refrigeration"],
+				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
 			},
+			{
+				"name": "Atomic Theory",
+				"row": 4,
+				"prerequisites": ["Plastics","Electronics"],
+				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
+			},
+			{
+				"name": "Radar",
+				"row": 6,
+				"prerequisites": ["Ballistics","Electronics"],
+				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
+			},
+			{
+				"name": "Combined Arms",
+				"row": 8,
+				"prerequisites": ["Ballistics","Combustion"],
+				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
+			}
 		]
 	},
 	{
 		"columnNumber": 15,
-		"era": "Renaissance era",
-		"techCost": 3100,
-		"buildingCost": 500,
-		"wonderCost": 1060,
+		"era": "Atomic era",
+		"techCost": 99999999999,
+		"buildingCost": 99999,
+		"wonderCost": 999999,
 		"techs": [
 			{
-				"name": "Future Tech30",
-				"row": 1,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "I'm very hungry"
-			},
-			{
-				"name": "Future Tech31",
-				"row": 3,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech32",
-				"row": 5,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "I guess you are struggling to defeat your opponent by force."
-			},
-			{
-				"name": "Future Tech33",
-				"row": 7,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech34",
+				"name": "Ecology",
 				"row": 2,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
+				"prerequisites": ["Atomic Theory","Pharmaceuticals"],
+				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
 			},
+			{
+				"name": "Nuclear Fission",
+				"row": 4,
+				"prerequisites": ["Atomic Theory","Radar"],
+				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
+			},
+			{
+				"name": "Rocketry",
+				"row": 6,
+				"prerequisites": ["Radar"],
+				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+			},
+			{
+				"name": "Computers",
+				"row": 8,
+				"prerequisites": ["Combined Arms","Radar"],
+				"quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
+			}
 		]
 	},
 	{
 		"columnNumber": 16,
-		"era": "Renaissance era",
-		"techCost": 4100,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"era": "Information era",
+		"techCost": 99999999999,
+		"buildingCost": 99999,
+		"wonderCost": 999999,
 		"techs": [
 			{
-				"name": "Future Tech35",
-				"row": 1,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech36",
-				"row": 3,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "Ye have been playing for too long, don't ye think?"
-			},
-			{
-				"name": "Future Tech37",
-				"row": 5,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech38",
-				"row": 7,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech39",
+				"name": "Telecommunications",
 				"row": 2,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "I bet you are in a dedicated multiplayer."
+				"prerequisites": ["Ecology"],
+				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
 			},
+			{
+				"name": "Mobile Tactics",
+				"row": 3,
+				"prerequisites": ["Ecology","Nuclear Fission"],
+				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
+			},
+			{
+				"name": "Advanced Ballistics",
+				"row": 5,
+				"prerequisites": ["Nuclear Fission","Rocketry"],
+				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
+			},
+			{
+				"name": "Satellites",
+				"row": 6,
+				"prerequisites": ["Rocketry"],
+				"uniques": ["Reveals the entire map"],
+				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+			},
+			{
+				"name": "Robotics",
+				"row": 7,
+				"prerequisites": ["Rocketry","Computers"],
+				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
+			},
+			{
+				"name": "Lasers",
+				"row": 8,
+				"prerequisites": ["Computers"],
+				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
+			}
 		]
 	},
+
 	{
 		"columnNumber": 17,
-		"era": "Renaissance era",
-		"techCost": 5100,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"era": "Information era",
+		"techCost": 99999999999,
+		"buildingCost": 99999,
+		"wonderCost": 999999,
 		"techs": [
 			{
-				"name": "Future Tech40",
-				"row": 1,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech41",
-				"row": 3,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "General Kenobi"
-			},
-			{
-				"name": "Future Tech42",
-				"row": 5,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech43",
-				"row": 7,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech44",
+				"name": "Globalization",
 				"row": 2,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "Hello There"
+				"prerequisites": ["Telecommunications"],
+				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
 			},
+			{
+				"name": "Particle Physics",
+				"row": 3,
+				"prerequisites": ["Telecommunications","Mobile Tactics","Advanced Ballistics"],
+				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+			},
+			{
+				"name": "Nuclear Fusion",
+				"row": 6,
+				"prerequisites": ["Advanced Ballistics", "Satellites", "Robotics"],
+				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
+			},
+			{
+				"name": "Nanotechnology",
+				"row": 7,
+				"prerequisites": ["Robotics"],
+				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
+			},
+			{
+				"name": "Stealth",
+				"row": 8,
+				"prerequisites": ["Robotics", "Lasers"],
+				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
+			}
 		]
 	},
 	{
-		"columnNumber": 21,
-		"era": "Renaissance era",
-		"techCost": 9500,
-		"buildingCost": 750,
-		"wonderCost": 1250,
+		"columnNumber": 18,
+		"era": "Future era",
+		"techCost": 99999999999,
+		"buildingCost": 99999,
+		"wonderCost": 999999,
 		"techs": [
 			{
-				"name": "Final Tech",
+				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Future Tech"],
+				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
 				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "¡¡For how many hour have you been playing!!"
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 		]
 	}
