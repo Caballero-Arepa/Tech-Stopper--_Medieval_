@@ -307,6 +307,7 @@
 		"happiness": 2,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
+		"uniques": ["Hidden when religion is disabled"],
 		"requiredTech": "Philosophy"
 	},
 	{
@@ -318,6 +319,7 @@
 		"culture": 2,
 		"faith": 2,
 		"requiredBuilding": "Shrine",
+		"uniques": ["Hidden when religion is disabled"],
 		"requiredTech": "Philosophy"
 	},
 	{
