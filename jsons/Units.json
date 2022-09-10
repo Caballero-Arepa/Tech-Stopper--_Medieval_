@@ -1,0 +1,15 @@
+[
+	{
+		"name": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Compass",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+  ]
